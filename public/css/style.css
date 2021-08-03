@@ -1,0 +1,45 @@
+#arrow-pointer {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+#text_area {
+  margin-left: 6%;
+  font-size: 120px;
+  white-space: pre-wrap;
+}
+
+#blue-arrow:hover {
+  cursor: pointer;
+}
+
+#selection-bar {
+  display: flex;
+}
+
+#prompter-area {
+  display: grid;
+}
+
+#arrow-pointer-container {
+  z-index: 9;
+}
+
+#text_area {
+  background: black;
+}
+
+#text_area,
+#arrow-pointer-container {
+  grid-area: 1 / 1;
+}
+
+#remote-control-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 50px;
+}

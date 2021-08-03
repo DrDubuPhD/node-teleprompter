@@ -1,0 +1,23 @@
+{
+  "name": "teleprompter",
+  "version": "1.0.0",
+  "description": "Browser teleprompter app that can be controlled with your mobile device",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "teleprompter",
+    "IoT"
+  ],
+  "author": "Sean Ng",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-device": "^0.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
